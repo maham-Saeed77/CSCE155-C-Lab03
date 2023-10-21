@@ -59,7 +59,7 @@ int main(int argc, char **argv) {
     numPassed = numPassed + 1;
   }
 
-  //TODO: write *at least* 3 more of your own
+  //TODO: write at least 3 more of your own
   //      test cases here, they should all pass!
 
   printf("\n\n");
@@ -76,8 +76,13 @@ int main(int argc, char **argv) {
 }
 
 int isLeapYear(int year) {
-  //TODO: Write your logic here
-  //      The year is stored in the variable year
-  //      Your function should return true (1) if it represents a leap year
-  //      and false (0) if it does not.
+if (year%4== &&year%400==0 || year%100==0)
+{
+  return 1;
+}
+else
+{
+  return 0;
+}
+return 0;
 }
